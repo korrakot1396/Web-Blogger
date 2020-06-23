@@ -11,7 +11,7 @@
 
     </head>
     <body>
-       <h1>Korrakot' Blogger </h1>
+      
        <div id="app">
             <mainapp></mainapp>
        

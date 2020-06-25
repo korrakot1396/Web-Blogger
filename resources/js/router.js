@@ -11,10 +11,19 @@ import hooks from './components/pages/basic/hooks.vue'
 import methods from './components/pages/basic/methods.vue'
 
 const routes = [
+     //project routes....
+
+
      {
           path: '/home',
           component: home
      },
+
+     // //basic tutorials routes...
+     // {
+     //      path: '/home',
+     //      component: home
+     // },
 
      {
           path: '/skill',

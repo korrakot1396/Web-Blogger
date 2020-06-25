@@ -7,6 +7,8 @@
 
         <title>Korrakot'Blogger</title>
 
+        <link rel="stylesheet" href="/css/all.css">
+
      
 
     </head>
@@ -14,8 +16,9 @@
       
        <div id="app">
             <mainapp></mainapp>
-       
        </div>
+
+
     </body>
     <script src="{{mix('/js/app.js')}}"></script>
 </html>

@@ -3074,3 +3074,9 @@ p {
    .catagory_main_inputs {
        width: 319px;
    }
+   
+   .router-link-exact-active{
+        color: #000000 !important;
+        border-right: 2px solid #000000!important;
+        background-color: #d2d2d2;
+   }

@@ -6,7 +6,7 @@ import home from './components/pages/Home'
 
 import skill from './components/pages/Skill'
 
-import hooks from './components/pages/Skill'
+import hooks from './components/pages/basic/Hooks.vue'
 
 const routes = [
      {

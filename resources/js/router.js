@@ -2,19 +2,27 @@ import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router)
 
-import firstPages from './components/pages/Home'
+import home from './components/pages/Home'
 
-import twoPages from './components/pages/Skill'
+import skill from './components/pages/Skill'
+
+import hooks from './components/pages/Skill'
 
 const routes = [
      {
           path: '/home',
-          component: firstPages
+          component: home
      },
 
      {
           path: '/skill',
-          component: twoPages
+          component: skill
+     }
+     ,
+     //vue hooks
+     {
+          path: '/hooks',
+          component: hooks
      }
 ]
 

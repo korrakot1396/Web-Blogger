@@ -34996,11 +34996,16 @@ __webpack_require__.r(__webpack_exports__);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 
 
+
 var routes = [{
   path: '/home',
   component: _components_pages_Home__WEBPACK_IMPORTED_MODULE_2__["default"]
 }, {
   path: '/skill',
+  component: _components_pages_Skill__WEBPACK_IMPORTED_MODULE_3__["default"]
+}, //vue hooks
+{
+  path: '/hooks',
   component: _components_pages_Skill__WEBPACK_IMPORTED_MODULE_3__["default"]
 }];
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({

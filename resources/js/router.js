@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router)
 
-import home from './components/pages/home'
 
 import skill from './components/pages/skill'
 
@@ -10,20 +9,45 @@ import hooks from './components/pages/basic/hooks.vue'
 
 import methods from './components/pages/basic/methods.vue'
 
+//project pages
+import home from './components/pages/home'
+
+import tags from './components/pages/tags'
+
 const routes = [
      //project routes....
 
 
      {
-          path: '/home',
+          path: '/',
           component: home
      },
 
-     // //basic tutorials routes...
-     // {
-     //      path: '/home',
-     //      component: home
-     // },
+     {
+          path: '/tags',
+          component: tags
+     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
      {
           path: '/skill',

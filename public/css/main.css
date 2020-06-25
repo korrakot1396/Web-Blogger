@@ -586,7 +586,7 @@ p {
        
    }
    .home_header{
-           background-image: url(/static/header.jpg);
+       
        background-position: center center;
        -webkit-background-size: cover;
        -moz-background-size: cover;
@@ -2103,11 +2103,11 @@ p {
    }
    
    .bg-pattern-dots--light {
-     background-image: url("../assets/images/pattern-white-dots.png");
+    
    }
    
    .bg-pattern-dots--dark {
-     background-image: url("../assets/images/pattern-dark-dots.png");
+     
    }
    
    .bg-center-cover {

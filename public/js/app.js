@@ -1970,16 +1970,28 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       views: 0,
-      blogs: []
+      blogs: [],
+      showItem: false
     };
   },
   methods: {
     updateCounter: function updateCounter(number) {
       this.views += number;
+    },
+    changeShowItem: function changeShowItem() {
+      this.showItem = !this.showItem;
     }
   },
   created: function created() {
@@ -19706,7 +19718,31 @@ var render = function() {
               _c("p", [_vm._v(_vm._s(blog.post))])
             ])
           : _vm._e()
-      })
+      }),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", [
+        _vm.showItem
+          ? _c("p", [_vm._v('show is item if "showItem" is true')])
+          : _c("p", [_vm._v('show is item if "showItem" is false')])
+      ]),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          on: {
+            click: function($event) {
+              _vm.showItem = !_vm.showItem
+            }
+          }
+        },
+        [_vm._v(" Change showItem ")]
+      )
     ],
     2
   )

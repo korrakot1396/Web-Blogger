@@ -9,12 +9,20 @@
         <br><br>
 
         <div v-for="(blog, i) in blogs" :key="i" v-if="blogs.length">
- 
           <h1>{{blog.title}}</h1>
           <p>{{blog.post}}</p>
-        
-        
         </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div>
+          <p v-if="showItem">show is item if "showItem" is true</p>
+          <p v-else>show is item if "showItem" is false</p>
+        </div>
+
+        <button @click="showItem = !showItem"> Change showItem </button>
 
     </div>
 
@@ -27,11 +35,15 @@
             return {
                  views : 0,
                  blogs : [],
+                 showItem : false
             }
         },
         methods: {
              updateCounter(number){
                   this.views += number
+             },
+             changeShowItem(){
+                  this.showItem = !this.showItem
              }
         },
         created(){

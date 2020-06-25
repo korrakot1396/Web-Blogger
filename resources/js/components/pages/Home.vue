@@ -1,7 +1,7 @@
 <template>
 
     <div>
-        <h1>Hello Vue Pages</h1>
+        <h1>Home</h1>
     </div>
 
 </template>

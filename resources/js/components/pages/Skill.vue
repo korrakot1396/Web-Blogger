@@ -2,7 +2,7 @@
 
 <div>
 
-<h1>Hello Vue Page two</h1>
+<h1>Skill</h1>
 
 </div>
 

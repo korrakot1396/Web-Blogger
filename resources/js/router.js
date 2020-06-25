@@ -2,11 +2,13 @@ import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router)
 
-import home from './components/pages/Home'
+import home from './components/pages/home'
 
-import skill from './components/pages/Skill'
+import skill from './components/pages/skill'
 
-import hooks from './components/pages/basic/Hooks.vue'
+import hooks from './components/pages/basic/hooks.vue'
+
+import methods from './components/pages/basic/methods.vue'
 
 const routes = [
      {
@@ -23,7 +25,12 @@ const routes = [
      {
           path: '/hooks',
           component: hooks
-     }
+     },
+     //more basics
+     {
+          path: '/methods',
+          component: methods
+     },
 ]
 
 export default new Router({
